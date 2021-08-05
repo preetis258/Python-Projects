@@ -12,6 +12,6 @@ def comp_guess(x):
 
         elif feedback == 'L':
             low = guess + 1
-    print("Yayy! The computer guessed the number {guess} correctly!")
+    print(f"Yayy! The computer guessed the number {guess} correctly!")
 
 comp_guess(10)
